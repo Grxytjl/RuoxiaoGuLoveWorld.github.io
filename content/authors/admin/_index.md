@@ -1,17 +1,17 @@
 ---
 # Display name
-title: 吳健雄
+title: 谷若晓
 
-# Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+# Name pronunciation (optional)不太想
+name_pronunciation: ' '
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Ruoxiao
+last_name: Gu
 
 # Status emoji
-status:
-  icon: ☕️
+status: 
+  icon: 🐆
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,92 +20,61 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Master's Degree(reading)
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
-
+  - name: Department of Atmospheric Science, China University of Geosciences, Wuhan, China 
+    url: https://atmos.cug.edu.cn/
+  - name: Palaeoclimate Modelling Team, Department of Atmospheric Science, China University of Geosciences, Wuhan, China 
+    url: https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0ODgzMTgwNw==&action=getalbum&album_id=3703743155183665152#wechat_redirect
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+  - icon: "custom/envelope-solid"
+    url: 'mailto:ruoxiaogu@cug.edu.cn'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
-  - icon: brands/github
-    url: https://github.com/gcushen
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+  - icon: 'custom/paperclip-solid'
+    url: ''
+  - icon: 'custom/user-solid'
+    url: 
+    label: personal profile
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Paleoclimate research
+  - Global climate change (the evolution of the global monsoon systems, hydrological cycle...)
+  - climate models
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: MSc Climate change and Earth system modelling
+    institution: China University of Geosciences, Wuhan
+    date_start: 2022-09-01
+    date_end: 2025-06-01
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
+      Thesis 'Impacts of vegetation cover on the change of the East Asian summer monsoon and westerlies during the late Pliocene warm period' is still being refined. Supervised by [Prof Xiangyu Li]. The contribution being published in 'Quaternary Science Reviews'.
+      GPA: 3.5/4.0
 
       Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      - Numerical Climate Modelling
+      - Advanced Synoptic Meteorology
+      - Quaternary Environment and Global Change
+      - The Climate System
+
+  - area: BSc Atmospheric Science
+    institution: China University of Geosciences, Wuhan
+    date_start: 2018-09-01
+    date_end: 2022-07-01
     summary: |
-      GPA: 3.4/4.0
+      GPA: 3.13/4.0
       
       Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Synoptic Meteorology
+      - Atmospheric Dynamics
+      - Geofluid Mechanics
+      - Global Change
+      - Climatology
+      - Paleoclimatology
+      - Numerical Weather Prediction
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -114,13 +83,13 @@ skills:
     items:
       - name: Python
         description: ''
-        percent: 80
+        percent: 60
         icon: code-bracket
-      - name: Data Science
+      - name: NCL
         description: ''
         percent: 100
         icon: chart-bar
-      - name: SQL
+      - name: R
         description: ''
         percent: 40
         icon: circle-stack
@@ -132,55 +101,34 @@ skills:
         description: ''
         percent: 60
         icon: person-simple-walk
-      - name: Cats
+      - name: Dogs
         description: ''
         percent: 100
-        icon: cat
+        icon: dog
       - name: Photography
         description: ''
         percent: 80
         icon: camera
 
 languages:
-  - name: English
-    percent: 100
   - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+    percent: 100
+  - name: English
+    percent: 50
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
+  - title: Graduate Study 1st-Scholarship *3
+    url: https://graduate.cug.edu.cn/jzfz/j__z.htm
+    date: '2024-12,2023-12,2022-12'
+    awarder: school
     icon: coursera
     summary: |
       I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
 
 ## About Me
-
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Hi! I am Ruoxiao Gu, a master’s student specializing in Climate Change and Earth System Modeling at China University of Geosciences (Wuhan).My research focuses on climate simulation and the dynamics of global monsoon systems. I am passionate about programming and data visualization and deeply interested in the climatic impacts of ocean circulation and global sea ice variability. In the future, I plan to pursue a Ph.D. to further explore the vast field of climate science and contribute to climate prediction and adaptation efforts.
