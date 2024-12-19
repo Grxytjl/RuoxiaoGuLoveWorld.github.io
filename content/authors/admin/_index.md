@@ -31,13 +31,13 @@ organizations:
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: "custom/envelope-solid"
+  - icon: "envelope-solid"
     url: 'mailto:ruoxiaogu@cug.edu.cn'
     label: E-mail Me
-  - icon: 'custom/paperclip-solid'
-    url: ''
-  - icon: 'custom/user-solid'
-    url: 
+  - icon: 'paperclip-solid'
+    url: https://openai.com/chatgpt/overview/
+  - icon: 'user-solid'
+    url: https://openai.com/chatgpt/overview/
     label: personal profile
 
 interests:
